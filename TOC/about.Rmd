@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r system("git log -1 --format='%H'", intern = TRUE)`
+
+[Michael Turchin][github-io] is a doctoral candidate in the Department of Human Genetics at the University of Chicago.
+
+[github-io]: http://mturchin20.github.io/TOC
