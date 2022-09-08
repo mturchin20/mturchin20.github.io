@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Professional webpage for Michael C. Turchin" />
+	<meta name="keywords" content="academia,research,biology,genetics,genomics,personal website,bioinformatics,population genetics,statistical genetics,theoretical population genetics,computational biology,cornell,cornell university,university of chicago,broad institute,children's hospital boston" />
+	<meta name="author" content="Michael C. Turchin / Original design: Andreas Viklund - http://andreasviklund.com/" />
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="origo/origo_2.css" title="Origo" media="all" />
+	<title>Dr. Michael C. Turchin, Population and Statistical Geneticist -- Icahn School of Medicine at Mount Sinai</title>
+</head>
+
+<body class="light smaller freestyle01">
+<div id="layout">
+ 
+	<div class="row">
+		<div class="col c5">
+			<h1><a href="index.html">Michael Turchin</a></h1>
+		</div>
+		
+		<div class="col c7 alignright">
+			<p class="slogan">Institute for Genomic Health, Mount Sinai</p>
+		</div>
+	</div>
+  
+	<div class="row">
+		<div class="col c12 aligncenter">
+			<img src="images/Chicago4thEvening.crop1.jpg" width="960" height="240" alt="" />
+		</div>
+	</div>
+ 
+	<div class="row">
+		<div class="col c2 alignleft">
+			<ul class="menu">
+			<li><a href="index.html">Home</a></li>  
+			<li><a href="publications.htm">Publications, Etc.</a></li>
+			<li><a class="current" href="software.htm">Software</a></li>
+			<li><a href="contact.htm">Contact</a></li>
+		</ul>
+		</div>
+ 
+		<div class="col c8">
+			<h2>Software</h2>
+			
+			<ul class="software">
+				<li><a href="https://github.com/mturchin20/gencrypt/" target="_blank"><b>Gencrypt</b></a> -- A software suite that utilizes one-way cryptographic hashes
+				in order to securely identify overlapping individuals across multiple, independent studies. Operating on PLINK .ped and .map files, Gencrypt 
+				produces a list of multiple one-way hash outputs representing different groups of SNPs. These can then be compared between datasets in order
+				to identify identical pairs, i.e. individuals with a high percentage of one-way hashes overlapping between them, in a privacy-secure fashion.</li>
+				<li><a href="https://github.com/mturchin20/bmass" target="_blank"><b>bmass</b></a> -- Bayesian multivariate analysis of summary statistics, or bmass, is a
+				R package that implements the Bayesian multivariate association framework from <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0065245" target="_blank">Stephens 2013 PLOS ONE</a>. Specifically,
+				bmass makes use of univariate genome-wide association study (GWAS) summary statistics to comprehensively explore all possible multivariate models within the framework
+				(based on the association categories of ''<b>D</b>irectly Associated', ''<b>I</b>ndirectly Associated', and '<b>U</b>nassociated) and identify
+				those with the greatest amount of support. bmass is also able to combine evidence across all these multivariate models to form a single,
+				variant-specific summary metric; from this metric bmass is able to determine the overall amount of support for declaring a variant as a new 'multivariate significant genetic association'.</li>
+				<li><a href="https://github.com/mturchin20/MAPITR" target="_blank"><b>MAPITR</b></a> -- MArginal ePistatis Test for Regions, or MAPITR, is a variance 
+				component model that tests for marginal epistasis -- the presence of any epistatic interactions -- between a given genetic pathway and the rest of the genome. 
+				MAPITR expects as input a set of genotypes, a single phenotype, and a list of pathways. As output, it returns for each pathway a p-value for the test against the 
+				null model of there not being any interactions between the pathway and the rest of the genome.
+			</ul>
+			<p></p>
+	
+		</div>
+ 
+		<div class="col c2">
+			<h3>News:</h3>
+			<p>TBD!</p>
+		</div>
+	</div>
+ 
+	<div id="footer" class="row">
+		<div class="col c12 aligncenter">
+			<h3>&copy; 2012-21 Michael Turchin</h3>
+			<p><a href="http://andreasviklund.com/templates/origo/">Template design</a> by <a href="http://andreasviklund.com/">Andreas Viklund</a><br />
+		Best hosted at <a href="https://www.svenskadomaner.se/?ref=mall&amp;ling=en" title="Svenska Domäner AB">www.svenskadomaner.se</a></p>
+		</div>
+	</div>
+ </div>
+</body>
+</html>
